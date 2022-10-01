@@ -8,9 +8,9 @@ sudo apt install nginx -y
 sudo apt install python3 -y
 sudo apt install git -y
 sudo apt install stress -y
-sudo git clone https://github.com/mavrick202/ansibletemplatetesting.git /myrepo
+sudo git clone https://github.com/hammuu786/ansible-asg.git /myrepo
 ######USE aws-autoscaling branch for testing aws autoscaling##########################
 ######GIVE ONLY ABOVE IN THE USER DATA FOR AMI IMAGE FOR AWS AUTOSCALING##########
 #
 #####GIVE BELOW IN THE LAUNCH CONFIG USERDATA#####################################
-ansible-playbook /myrepo/playbook.yaml
+ansible-playbook /myrepo/ansible-playbook
